@@ -30,20 +30,20 @@ export default function Technical() {
 				<SectionTitle
 					title="Technical"
 					preTitle="Hardskills"
-					subTitle="As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages."
+					subTitle="As a food technology innovator, I craft cutting-edge food solutions using a diverse set of scientific methodologies and quality assurance techniques."
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
 						<CopyBlock 
-							title="Polymath foundations"
+							title="Innovation foundations"
 							icon={[ 'fat', 'chart-network' ]}
-							copy="With a strong foundation in both design and development, I bring a unique perspective to every project and am constantly learning and evolving to stay up-to-date with the latest industry trends."
+							copy="With a strong foundation in nutritional innovation and food technology, I bring a specialized perspective to every project, constantly learning and evolving to stay ahead of the latest advancements in food safety and product development."
 							iconClass={about.icon}
 							containerClass={about.container}
 						/>
 						<BadgesBlock 
-							title="Software I love to work with" 
-							copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
+							title="Products I love to work with" 
+							copy="With over 10 years of experience in manufacturing, I have a deep and intuitive understanding of production optimization and innovation. My passion for improving manufacturing processes has driven me to continuously enhance product quality and efficiency throughout my career."
 							list={software}
 							block="software" 
 							fullContainer="fullContainer"
@@ -53,7 +53,7 @@ export default function Technical() {
 						/>
 						<BadgesBlock 
 							title="Technologies I love to build with" 
-							copy="I deeply enjoy solving problems through code. From the front end all the way to the back end and the APIs in-between. No project is too challenging for me."
+							copy="I am committed to solving problems through innovative technology, utilizing digital monitoring systems, cloud-based solutions, and advanced food production techniques to enhance the food technology process."
 							list={tech} 
 							block="tech"
 							fullContainer="fullContainer" 
@@ -73,31 +73,20 @@ export default function Technical() {
 }
 
 const software = [
-	{ key: 'photoshop', 	name: 'Photoshop', 			type: 'devicon' },
-	{ key: 'illustrator', 	name: 'Illustrator', 		type: 'devicon' },
-	{ key: 'figma', 		name: 'Figma', 				type: 'devicon' },
-	{ key: 'vscode', 		name: 'VSCode', 			type: 'devicon' },
-	{ key: 'mailbox', 		name: 'Postman', 			type: 'fas' },
-	{ key: 'computer-mouse',name: 'Click Up', 			type: 'fas' },
-	{ key: 'list-music',	name: 'Ableton', 			type: 'fas' },
-	{ key: 'aftereffects',	name: 'After Effects', 		type: 'devicon' },
-	{ key: 'premierepro',	name: 'Premiere Pro', 		type: 'devicon' },
+	{ key: 'photoshop', 	name: 'Processed Cheese', 					type: 'devicon' },
+	{ key: 'illustrator', 	name: 'Phosphates and Hydrocolloids', 		type: 'devicon' },
+	{ key: 'figma', 		name: 'Starch Blends', 						type: 'devicon' },
+	{ key: 'vscode', 		name: 'Flavors and its Enhancers', 			type: 'devicon' },
+	{ key: 'mailbox', 		name: 'Milk Proteins and Powders', 			type: 'fas' },
+	{ key: 'computer-mouse',name: 'Fats and Oils', 						type: 'fas' },
+	{ key: 'list-music',	name: 'Chocolates', 						type: 'fas' },
+	{ key: 'aftereffects',	name: 'Colorants', 							type: 'devicon' },
+	{ key: 'premierepro',	name: 'Glycerides', 						type: 'devicon' },
 ]
 
 const tech	= [
-	{ key: 'javascript', 	name: 'JavaScript', 		type: 'devicon' },
-	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
-	{ key: 'react', 		name: 'React', 				type: 'devicon' },
-	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
-	{ key: 'jquery', 		name: 'jQuery', 			type: 'devicon' },
-	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
-	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
-	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
-	{ key: "google",		name: "GA4/GTM", 			type: "devicon" },
-	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
-	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
-	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },
-	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
-	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
-	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
+	{ key: 'javascript', 	name: 'Digital Monitoring Systems', 						type: 'devicon' },
+	{ key: 'nodejs', 		name: 'Cloud-Based Accounting Software', 					type: 'devicon' },
+	{ key: 'react', 		name: 'Innovative Food Production Techniques', 				type: 'devicon' },
+
 ]

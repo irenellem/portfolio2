@@ -1,5 +1,11 @@
 @import '../../scss/mixins';
 
+.image {
+	transform: translateY(-50px);
+	aspect-ratio: 1;
+	object-fit: cover;
+}
+
 .hasBg {
 	border-bottom: 1px solid var(--primary-dark);
 }

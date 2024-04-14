@@ -33,9 +33,9 @@ export default function About() {
 					subTitle="With a diverse skill set that spans food technology, nutritional science, quality assurance, project management, and innovative product development, I am a well-rounded professional in the food industry."
 				/>
 				<section className={about.content}>
-					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
-						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
+				<div className={about.image}>
+						<img src="/img/family-photo.webp" alt="Irenelle 2024"/>
+						{/* <Image src="/img/family-photo." width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
 						<CopyBlock 
