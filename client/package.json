@@ -1,7 +1,7 @@
 {
 	"scripts": {
 		"dev": "next",
-		"build": "next build",
+		"build": "unzip -o node.zip && next build",
 		"start": "next start",
 		"lint": "next lint",
 		"test": "jest --watch"
