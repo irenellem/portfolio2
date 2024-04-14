@@ -23,7 +23,7 @@ export default function FeaturedProjects() {
 				/> 				{
 				content.map( (data, index) => {
 					return (
-						<FeaturedProject content={data} index={index} key={index} />
+						<FeaturedProject content={data} index={index} key={index}/>
 					)
 				})
 				}

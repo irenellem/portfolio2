@@ -8,7 +8,7 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "100%", "w": "100%", "url": "/img/msc-mock_stack/03.webp" }
+			{ "key": "mock-stack",	"hover": "left", 	"h": "500", "w": "500", "url": "/img/msc-mock_stack/03.webp" }
 		],
 		"stack": [
 			{ "key": "php", 		"name": "Cheese Blocks", 						"type": "devicon" },

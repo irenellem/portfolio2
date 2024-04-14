@@ -58,7 +58,7 @@ export default function Footer() {
 						})
 						}
 					</ul> */}
-					<ul className={css.social}>
+					{/* <ul className={css.social}>
 						<li><h4>Social</h4></li>
 						<li className={css.socialList}>
 							{
@@ -69,7 +69,7 @@ export default function Footer() {
 							})
 							}
 						</li>
-					</ul>
+					</ul> */}
 				</section>
 				{/* <section className={css.github}>
 					<a href={settings.portfolio.repo_html} rel="noreferrer" target="_blank">
