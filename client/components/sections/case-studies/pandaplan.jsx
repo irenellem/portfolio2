@@ -80,7 +80,7 @@ export default function PandaPlanCaseStudies() {
 					<div style={{padding: '2rem 0'}}>
 						<h3 style={{marginBottom: '1rem', fontSize: '1.4rem'}}>Built on Honesty & Integrity</h3>
 						<p style={{lineHeight: 1.8, maxWidth: '700px'}}>
-						PandaPlan is a side project rooted in transparency. No upsells. No lock-ins. No promises that can't be kept. Every feature was built because someone actually needed it — not because a roadmap said so. The platform grows one honest conversation at a time, and that is exactly how it will stay.
+						PandaPlan is a side project rooted in transparency. No upsells. No lock-ins. No promises that can&apos;t be kept. Every feature was built because someone actually needed it — not because a roadmap said so. The platform grows one honest conversation at a time, and that is exactly how it will stay.
 						</p>
 					</div>
 				</section>
