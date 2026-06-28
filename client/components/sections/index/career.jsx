@@ -22,23 +22,23 @@ import career from '../../../styles/sections/index/career.module.scss'
 export default function Career() {
 	return (
 		<Section classProp={`${career.section} borderBottom`}>
-			<Container spacing={['verticalXXXLrg']}>
+			<Container spacing={['verticalXXXXLrg']}>
 				<SectionTitle
 					title="Experience"
 					preTitle="Career"
-					subTitle="I am current managing, designing, and developing all consumer and digital product initiatives at My Supply Co."
+					subTitle="12 years of building food manufacturing systems from scratch — leading R&D, QA, engineering, and production operations."
 				/>
 				<section className={career.area}>
 					<article className={career.company}>
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
-								<h3>My Supply Co.</h3>
+								<h3>Dairy Technologies Corporation</h3>
 								<h4>Permanent Full-time</h4>
-								<h4>Apr 2019 - Present · 3 yrs 10 mos</h4>
-								<h5>Vancouver, British Columbia, Canada</h5>
+								<h4>2014 - Present · 12 yrs</h4>
+								<h5>Manila, Philippines</h5>
 							</span>
 							<p>
-							My Supply Co. helps Canadians manage mental and physical health with naturally occurring nootropic and adaptogenic products. They carry products with complex attributes, aiming to solve a large variety of personal care needs — this requires an extremely customized and evolving approach to how the store is built and functions.
+							Dairy Technologies Corporation is a food manufacturing company specializing in processed cheese products and related dairy innovations. As the Tech Head, I oversee all technical operations — from R&D to production, quality assurance, and engineering services.
 							</p>
 						</div>
 						<div className={career.companyAlt}></div>
@@ -48,47 +48,38 @@ export default function Career() {
 						<div className={career.position}>
 							<div className={career.positionContent}>
 								<span class={career.positionHeader}>
-									<h3>Director of Product Design and Development</h3>
-									<h4>Nov 2021 - Present · 1 yrs 3 mos</h4>
+									<h3>Tech Head</h3>
+									<h4>2014 - Present · 12 yrs</h4>
 								</span>
 								<p>
-								I am responsible for the ideation, planning, and development of new consumer goods—and customer and employee facing microservice software. During these projects I work with key stakeholders within our company and supplychain to ensure and meet quality goals across multiple domains.
-								</p>
-							</div>
-							<div className={career.positionAlt}></div>
-						</div>
-
-						<div className={career.position}>
-							<div className={career.positionContent}>
-								<span class={career.positionHeader}>
-									<h3>Full Stack Developer & User Experience Designer</h3>
-									<h4>Feb 2020 - Nov 2021 · 1 yrs 10 mos</h4>
-								</span>
-								<p>
-								As the lead full stack developer I am responsible for all software development, CI/CD, and QA. This is for the front end, APIs, and the back end. Additionally I was tasked with identifying and analyzing weak points in the customer journey and employee workflows. Each project had to be estimated and prioritized based on its workload and immediate impact to efficiency or revenue. Some of these projects have been so successful internally that we have planned refactoring for commercialization. 
+								As Tech Head, I am responsible for the overall technical direction of the company — leading research and development, quality assurance, engineering services, production optimization, and raw material sourcing. My role bridges food science and operations, ensuring that every product meets the highest standards of safety, quality, and consistency.
 								</p>
 								<p>
-								Some key projects complete during this time 👇
+								Key achievements during my tenure 👇
 								</p>
 								<ul className={career.list}>
 									<li>
-										Product attribute and settings automated testing
-										<span className={career.subList}><span className={career.bullet}></span>Eradicated critical data input errors</span>
+										Pioneered a processed cheese manufacturing plant from the ground up
+										<span className={career.subList}><span className={career.bullet}></span>Optimized traditional techniques for zero downtime and enhanced product quality</span>
 									</li>
 									<li>
-										Inventory management reporting and automation 
-										<span className={career.subList}><span className={career.bullet}></span>Decreased purchasing labour by ~80%</span>
+										Developed a full product line including cheese blocks, spreads, melting cheeses, shreddable cheeses, pumpable cheese, and cheese sauces
+										<span className={career.subList}><span className={career.bullet}></span>Built complete HACCP and GMP compliance frameworks</span>
 									</li>
 									<li>
-										Sales management plugin with AJAX shopping cart integration
-										<span className={career.subList}><span className={career.bullet}></span>Increased AOV by 8.3%</span>
+										Established engineering services and spare parts sourcing operations 
+										<span className={career.subList}><span className={career.bullet}></span>Reduced equipment downtime through systematic preventive maintenance</span>
 									</li>
 									<li>
-										Bespoke ID verification software and WooCommerce integration
-										<span className={career.subList}><span className={career.bullet}></span>Decreased Credit Card fraud by 98%</span>
+										Created an online operations platform (PandaPlan)
+										<span className={career.subList}><span className={career.bullet}></span>Streamlined work ordering, purchasing, and engineering workflows</span>
+									</li>
+									<li>
+										Achieved UP-ISSI certification with distinction
+										<span className={career.subList}><span className={career.bullet}></span>Recognized with Best BHAP Award and Certificate of Distinction</span>
 									</li>
 								</ul>
-								<Badges list={fullStack} block="stack" fullContainer="fullContainer"/>
+								<Badges list={foodTech} block="stack" fullContainer="fullContainer"/>
 							</div>
 							<div className={career.positionAlt}></div>
 						</div>
@@ -96,61 +87,15 @@ export default function Career() {
 						<div className={career.position}>
 							<div className={career.positionContent}>
 									<span class={career.positionHeader}>
-										<h3>Front End Developer & User Interface Designer</h3>
-										<h4>Apr 2019 - Feb 2020 · 11 mos</h4>
+										<h3>Registered Nutritionist-Dietitian & Professional Food Technologist</h3>
+										<h4>Ongoing licensure and certifications</h4>
 									</span>
 								<p>
-									I was brought on to help fill multiple creative rolls in a small start-up environment. Working with the marketing team to create the brand and logos — designing and developing a new front end for the website — and improving the users experience and store KPIs through design and merchandising optimizations.
+									I hold full professional licensure as a Registered Nutritionist-Dietitian (RND) and Professional Food Technologist (PFT). These credentials, combined with years of hands-on manufacturing experience, give me a unique perspective that bridges nutritional science with practical food production.
 								</p>
-								<p>
-									Some key projects completed during this time 👇
-								</p>
-								<ul className={career.list}>
-									<li>
-										Full functionality interactive shopping cart to replace cart page
-										<span className={career.subList}><span className={career.bullet}></span>Increased conversions by 0.7%</span>
-									</li>
-									<li>Complex multi-state animated menus represented in an elegant UI 
-										<span className={career.subList}><span className={career.bullet}></span>Strong brand confidence booster with state of the art menu</span>
-									</li>
-									<li>
-										Design and development of the site and merchandising strategy optimized for market
-										<span className={career.subList}><span className={career.bullet}></span>7.1% overall conversion rate </span>
-									</li>
-								</ul>
-								<Badges list={stack} block="stack" fullContainer="fullContainer"/>
 							</div>
 							<div className={career.positionAlt}></div>
 						</div>
-					</article>
-
-					<article className={career.company}>
-						<div className={career.companyContent}>
-							<span className={career.companyHeader}>
-								<h3>Another Creative Ltd.</h3>
-								<h4>Contract Part-time</h4>
-								<h4>Jun 2016 - Present · 6 yrs 8 mos</h4>
-								<h5>Vancouver, British Columbia, Canada</h5>
-							</span>
-							<p>
-							Another Creative is a full stack agency that helps deliver exceptional digital experiences to small and medium businesses. Branding, Marketing, and Web/Software Development.
-							</p>
-						</div>
-						<div className={career.companyAlt}></div>
-					</article>
-
-					<article className={career.company}>
-						<div className={career.companyContent}>
-							<span className={career.companyHeader}>
-								<h3>West Coast Electronics</h3>
-								<h4>Permanent Full-time</h4>
-								<h4>Jan 2006 - Nov 2011 · 5 yrs 11 mos</h4>
-								<h5>Vancouver, British Columbia, Canada</h5>
-							</span>
-							<p>I was the Electronics Wizard 🧙‍♂️</p>
-							<p>West Coast Electronics was a repair shop that fixed computers, consoles, and cell phones.</p>
-						</div>
-						<div className={career.companyAlt}></div>
 					</article>
 				</section>
 			</Container>
@@ -158,34 +103,18 @@ export default function Career() {
 	)
 }
 
-const fullStack	= [
-	{ key: 'javascript', 	name: 'JavaScript', 		type: 'devicon' },
-	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
-	{ key: 'react', 		name: 'React', 				type: 'devicon' },
-	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
-	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
-	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
-	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
-	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
-	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
-	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },
-	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
-	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
-	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
-]
-
-const stack	= [
-	{ key: 'javascript', 	name: 'JavaScript', 		type: 'devicon' },
-	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
-	{ key: 'react', 		name: 'React', 				type: 'devicon' },
-	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
-	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
-	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
-	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
-	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
-	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
-	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },
-	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
-	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
-	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
+const foodTech	= [
+	{ key: 'javascript', 	name: 'Processed Cheese', 		type: 'devicon' },
+	{ key: 'nodejs', 		name: 'HACCP & GMP', 			type: 'devicon' },
+	{ key: 'react', 		name: 'Quality Assurance', 		type: 'devicon' },
+	{ key: 'nextjs', 		name: 'R&D', 					type: 'devicon' },
+	{ key: 'php', 			name: 'Production Optimization',type: 'devicon' },
+	{ key: 'wordpress', 	name: 'Engineering Services', 	type: 'devicon' },
+	{ key: 'woocommerce', 	name: 'Operations Management',  type: 'devicon' },
+	{ key: 'html5',			name: 'SOP Development', 		type: 'devicon' },
+	{ key: 'css3',			name: 'Food Safety', 			type: 'devicon' },
+	{ key: 'sass',			name: 'Supplier Sourcing', 		type: 'devicon' },
+	{ key: 'git',			name: 'Project Management', 	type: 'devicon' },
+	{ key: 'mysql', 		name: 'Nutritional Labeling', 	type: 'devicon' },
+	{ key: 'mongodb', 		name: 'PandaPlan Platform', 	type: 'devicon' },
 ]

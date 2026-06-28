@@ -1,41 +1,20 @@
 {
-	"acknowledgments": [
-		{ 
-			"person": "Jihad Hassan - Marketing Director",
-			"link": "",
-			"note": "Thank you for all the advice and feedback."
-		},
-		{ 
-			"person": "Colorpong - Artist",
-			"link": "ttps://www.youworkforthem.com/designer/536/colorpong?aff=1115",
-			"note": "Checkout their amazing vector illustrations."
-		}
-	],
+	"acknowledgments": [],
 
-	"links": [
-		{ 
-			"person": "YWFT Creative Marketplace",
-			"link": "https://www.youworkforthem.com/?aff=1115",
-			"note": "Best in class creative assets."
-		}
-	],
+	"links": [],
 
 	"social": [
 		{
-			"url": "https://medium.com/@--andrewnelson",
-			"icon": "medium"
-		},
-		{
-			"url": "https://dev.to/andrewnelson",
-			"icon": "dev"
-		},
-		{
-			"url": "www.linkedin.com/in/irenelle-m-1780663a",
+			"url": "https://www.linkedin.com/in/irenelle/",
 			"icon": "linkedin"
 		},
 		{
 			"url": "https://github.com/irenellem",
 			"icon": "github"
+		},
+		{
+			"url": "https://www.pandaplan.work",
+			"icon": "globe"
 		}
 	]
 }

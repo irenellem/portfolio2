@@ -16,6 +16,8 @@ import CopyBlock from '../../blocks/about.copy.block'
 // Section scss
 import about from '../../../styles/sections/index/about.module.scss';
 
+import content from '../../../content/index/about.json'
+
 /**
  * Section: About
  * An overview of yourself.
@@ -24,13 +26,14 @@ import about from '../../../styles/sections/index/about.module.scss';
  * @returns {jsx} <About />
  */
 export default function About() {
+	const s = content
 	return (
 		<Section classProp={about.section}>	
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="About Me"
-					preTitle="Synopsis"
-					subTitle="With a diverse skill set that spans food technology, nutritional science, quality assurance, project management, and innovative product development, I am a well-rounded professional in the food industry."
+					title={s.title}
+					preTitle={s.preTitle}
+					subTitle={s.subTitle}
 				/>
 				<section className={about.content}>
 				<div className={about.image}>
@@ -39,21 +42,20 @@ export default function About() {
 					</div>
 					<div className={about.copy} >
 						<CopyBlock 
-							title="Softskills that pay the bills"
+							title={s.softskills.title}
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my technical expertise in food technology and nutrition—I also possess strong leadership, project management, and problem-solving skills—sharpened through years of managing complex quality assurance processes and R&D initiatives. Outside of work, I am dedicated to lifelong learning and continuous improvement in my field. I am confident in my ability to bring innovation and value to every endeavor."
+							copy={s.softskills.copy}
 						/>
 						<BadgesBlock 
-							title="Research and Planning" 
+							title={s.planning.title} 
 							containerClass={about.container}
-							list={methods} 
+							list={s.planning.badges} 
 							fullContainer="fullContainer"
 							block="methods" 
 							icon="fingerprint"
-							copy="One of my favorite aspects of innovation is planning the architecture of a project. From developing new food products to implementing quality assurance systems—I enjoy working with the many touchpoints of food science and technology. This allows me to enhance the nutritional value and safety of food products, ensuring a positive impact on consumer health."
-							//invertedColor="invertedColor"
+							copy={s.planning.copy}
 							headerIcon={`${about.icon}`}
 						/>
 					</div>
@@ -62,12 +64,3 @@ export default function About() {
 		</Section>
 	)
 }
-
-const methods 	= [
-	{ key: 'planet-moon', 		name: 'Leadership', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'Problem Solving', 	type: 'fad' },
-	{ key: 'window', 			name: 'Project Management', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Communication', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Adaptability', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Attention to Detail', 		type: 'fad' },
-]

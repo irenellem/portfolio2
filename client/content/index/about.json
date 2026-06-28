@@ -1,0 +1,36 @@
+{
+	"title": "About Me",
+	"preTitle": "Synopsis",
+	"subTitle": "With over a decade of hands-on experience in food manufacturing, quality assurance, and operations management, I am a registered nutritionist-dietitian and food technology professional dedicated to creating systems that work.",
+	"paragraphs": [
+		"I am the Tech Head at Dairy Technologies Corporation (DTC), where I oversee research and development, quality assurance, engineering services, and production optimization. Over 12 years, I have built operational systems from the ground up — covering everything from processed cheese manufacturing to spare parts sourcing and HACCP compliance.",
+		"My background spans food technology, nutritional science, project management, and innovative product development. I graduated from the University of the Philippines Los Baños with a degree in Nutrition and Dietetics, and I hold certifications as a Registered Nutritionist-Dietitian (RND) and a Professional Food Technologist (PFT).",
+		"I have been honored with the Best BHAP (Best in Health and Allied Professions) Award, a UP-ISSI certification distinction, and a Certificate of Distinction — recognitions that affirm my commitment to quality and excellence in the food industry.",
+		"Beyond the plant floor, I founded PandaPlan — an online operations platform that streamlines work ordering, purchasing, and engineering workflows. It is a side project born from years of seeing how messy operations drain the life out of a business. Today, it is a growing platform that helps teams work with clarity and purpose."
+	],
+	"softskills": {
+		"title": "What drives my work",
+		"copy": "Beyond technical expertise, I bring strong leadership, practical problem-solving, and deep systems thinking — sharpened through years of managing complex manufacturing processes, leading cross-functional teams, and building operational frameworks from scratch. I believe the best solutions are the ones that make work invisible so people can focus on what actually matters.",
+		"badges": [
+			{ "key": "planet-moon", "name": "Leadership", "type": "fad" },
+			{ "key": "qrcode", "name": "Problem Solving", "type": "fad" },
+			{ "key": "window", "name": "Project Management", "type": "fad" },
+			{ "key": "cubes", "name": "Systems Thinking", "type": "far" },
+			{ "key": "layer-plus", "name": "Adaptability", "type": "fad" },
+			{ "key": "solar-system", "name": "Attention to Detail", "type": "fad" }
+		]
+	},
+	"planning": {
+		"title": "Research and Planning",
+		"icon": "fingerprint",
+		"copy": "One of my strongest assets is the ability to plan the architecture of a project — from developing new food products and implementing QA systems to building digital operations platforms. I enjoy working across the many touchpoints of food science and technology to enhance nutritional value, ensure safety, and create lasting impact on consumer health.",
+		"badges": [
+			{ "key": "planet-moon", "name": "Leadership", "type": "fad" },
+			{ "key": "qrcode", "name": "Problem Solving", "type": "fad" },
+			{ "key": "window", "name": "Project Management", "type": "fad" },
+			{ "key": "cubes", "name": "Communication", "type": "far" },
+			{ "key": "layer-plus", "name": "Adaptability", "type": "fad" },
+			{ "key": "solar-system", "name": "Attention to Detail", "type": "fad" }
+		]
+	}
+}

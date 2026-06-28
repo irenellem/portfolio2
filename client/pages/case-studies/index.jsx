@@ -1,15 +1,16 @@
-import Color 	from '../../components/utils/page.colors.util'
-import ComingSoon from '../../components/sections/comingsoon'
+// Sections
+import PandaPlanCaseStudies from '../../components/sections/case-studies/pandaplan'
 
-import colors 		from '../../content/case-studies/_colors.json'
-import settings 	from '../../content/_settings.json'
+import Color  from '../../components/utils/page.colors.util'
+
+import colors from '../../content/case-studies/_colors.json'
 
 //
 export default function CaseStudies({}) {
 	return (
 		<>	
 			<Color colors={colors} />
-			<ComingSoon />
+			<PandaPlanCaseStudies />
 		</>
 	)
 }

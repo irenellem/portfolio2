@@ -1,15 +1,14 @@
 {
-	"name": "Irenelle",
+	"name": "Irenelle Medalla",
 	"logo": "",
 	
 	"username": {
 		"github": "irenellem",
-		"medium": "@--andrewnelson"
+		"medium": ""
 	},
 
 	"portfolio": { 
-		"forkthis": "Steal this theme! Its open-source 🥰",
-		"repo_html": "https://www.github.com/atlamors/portfolio",
-		"repo_api": "https://api.github.com/repos/atlamors/portfolio"
+		"repo_html": "https://www.github.com/irenellem/portfolio2",
+		"repo_api": "https://api.github.com/repos/irenellem/portfolio2"
 	}
 }
